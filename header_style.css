@@ -28,12 +28,13 @@ body{
 .h-list li{
     display: inline-block;
     margin: 8px;
+    margin-left: 1em;
 
 }
 .h-list li a{
     color: #fffff0;
     text-decoration: none;
-    font-size: larger;
+    font-size: 1.5rem;
     
 
 }
@@ -46,20 +47,34 @@ body{
 
 #header-title{
     color: white;
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 0.4rem;
+    font-size: 2.0rem;
+    font-weight: 400;
+    margin-top: -1.5rem;   
     letter-spacing: 0.2rem;
     font-family: Arial, Helvetica, sans-serif;
+
    
+}
+#subtitle{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2.5rem;
 }
 
 
 /* Social Icons*/
+
+#social{
+    margin-top: -1rem;
+}
 .social-icons li a img{
     padding: 0.5%;
-    
+    margin-bottom: 13vh;
     border-radius: 100%;
+    margin-left: 1rem;
 }
 
 .social-icons li a img:hover{
