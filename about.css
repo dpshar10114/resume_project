@@ -19,10 +19,11 @@
 .about-data{
     padding-left: 15vw;
     padding-right: 15vw;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     line-height: 1.5em;
+    box-shadow: azure;
 }
 
 
