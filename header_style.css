@@ -84,3 +84,7 @@
 .text-just{
     text-align: justify;
 }
+
+:visited{
+    color: inherit;
+}
