@@ -8,6 +8,10 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 
 
     /*overflow: scroll;*/ 
@@ -21,6 +25,7 @@ nav #navi{
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 #navi div a{
@@ -112,3 +117,23 @@ nav #navi{
 :visited{
     color: inherit;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    
+}
+
+/*CSS RULES */
+
+section:nth-child(2n){
+    /*EVEN NO OF SECTION*/
+    background-color: #C9DBEA;
+
+}
+section:nth-child(2n+1){
+    /*ODD NO OF SECTION*/
+    background-color: white;
+}
+
