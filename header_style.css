@@ -2,7 +2,7 @@
 /*Body Header*/
 
 #body-header{
-    height: 75%;
+    height: auto;
     opacity: 1.2;
     background-color: #0A2335;
     background-size: cover;
