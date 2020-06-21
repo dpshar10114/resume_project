@@ -13,8 +13,32 @@
     /*overflow: scroll;*/ 
 }
 
+/*Upper Navigation*/
+nav #navi{
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
 
-/*Horizontal List*/
+}
+#navi div a{
+    color: #fffff0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+
+}
+
+#navi div a:hover{
+    color: white;
+    text-decoration: underline;
+    text-shadow: rgba(230,196,196,0.3);
+}
+
+
+/*Horizontal List for social links*/
 .h-list{
     list-style-type: none;
     padding-left: 0px;
