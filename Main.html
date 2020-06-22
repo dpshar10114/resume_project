@@ -11,9 +11,11 @@
         
         
         <!--Styling Sheets-->
-        <link rel="stylesheet" type="text/css" href="header_style.css">
-        <link rel="stylesheet" type="text/css" href="about.css">
-        <link rel="stylesheet" type="text/css" href="Skills.css">
+        <link rel="stylesheet" type="text/css" href="Style Sheets/header_style.css">
+        <link rel="stylesheet" type="text/css" href="Style Sheets/about.css">
+        <link rel="stylesheet" type="text/css" href="Style Sheets/Skills.css">
+        <link rel="stylesheet" type="text/css" href="Style Sheets/trainings.css">
+        <link rel="stylesheet" type="text/css" href="Style Sheets/contact.css">
 
 
         
@@ -33,13 +35,13 @@
                         <a href="#skills">Skills</a>
                     </div>
                     <div>
-                        <a href="#exp">Experience</a>
+                        <a href="#exp">Trainings & Certifications</a>
                     </div>
                     <div>
-                        <a href="education">Education</a>
+                        <a href="#education">Educational Qualification</a>
                     </div>
                     <div>
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Projects</a>
                     </div>
                     <div>
                         <a href="#contact">Contact</a>
@@ -119,9 +121,9 @@
                     </a>
                 </div>
                 <p class="text-just about-data">
-                    Learning enthusiast looking for wider opportunities. Solution oriented proffessional, keen to learn and develop so that can work for the development of the environment around him. Skilled in HTML5,CSS, Python 3, C++, JAVA, Graphic Designing, Public Speaking, Management, etc. 
+                    Learning enthusiast looking for wider opportunities. Solution oriented professional, keen to learn and develop so that can work for the development of the environment around him. Skilled in HTML5, CSS, Python 3, C++, JAVA, Graphic Designing, Public Speaking, Management, etc. 
                     <br>
-                    Strong business development professional with a Bachelor of Technology - BTech focused in Computer Engineering from The Technological Institute of Textiles & Sciences.
+                    Strong business development professional with a Bachelor of Technology - B.Tech focused in Computer Engineering from The Technological Institute of Textiles & Sciences.
                 </p>
             </section>
             
@@ -129,20 +131,20 @@
             <section id="skills">
                 <div class="section-heading">
                     <img src="https://img.icons8.com/fluent/48/000000/visualization-skill.png" alt="Skills Logo" title="Skills Logo">
-                    <h1>SKILLS</h3>
+                    <h1 title="SKILLS">SKILLS</h1>
                 </div>
 
                 <div class="skills-display">
-                    <div class="skill-progress">
+                    <div title="HTML5" class="skill-progress">
                         <div class="skill-stat-htm">
                             <div class="skill-name">
                                 <span>
-                                    HTML
+                                    HTML5
                                 </span>
                             </div>
                         </div>   
                     </div>
-                    <div class="skill-progress">
+                    <div title="CSS" class="skill-progress">
                         <div class="skill-stat-css">
                             <div class="skill-name">
                                 <span>
@@ -151,17 +153,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill-progress">
+                    <div title="Python 3" class="skill-progress">
                         <div class="skill-stat-Python">
                             <div class="skill-name">
                                 <span>
-                                    Python
+                                    Python 3
                                 </span>
                             </div>
                         </div>
                     </div>
                     <div class="skill-progress">
-                        <div class="skill-stat-cpp">
+                        <div title="C++" class="skill-stat-cpp">
                             <div class="skill-name">
                                 <span>
                                     C++
@@ -169,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill-progress">
+                    <div title="JAVA" class="skill-progress">
                         <div class="skill-stat-java">
                             <div class="skill-name">
                                 <span>
@@ -178,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill-progress">
+                    <div title="CCNA" class="skill-progress">
                         <div class="skill-stat-ccna">
                             <div class="skill-name">
                                 <span>
@@ -188,7 +190,7 @@
                         </div>
                     </div>
                     
-                    <div class="skill-progress">
+                    <div title="Adobe Photoshop" class="skill-progress">
                         <div class="skill-stat-adobe">
                             <div class="skill-name">
                                 <span>
@@ -197,16 +199,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill-progress">
+                    <div title="MySQL" class="skill-progress">
                         <div class="skill-stat-sql">
                             <div class="skill-name">
                                 <span>
-                                    SQL
+                                    MySQL
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="skill-progress">
+                    <div title="Soft Skills" class="skill-progress">
                         <div class="skill-stat-soft">
                             <div class="skill-name">
                                 <span>
@@ -226,15 +228,31 @@
 
             <section id="exp">
 
+                <div class="section-heading">
+                    <img src="https://img.icons8.com/bubbles/50/000000/certificate.png" alt="Certification Logo" title="Trainings & Certification">
+                    <h1 title="Trainings">Trainings & Certification</h1>
+                </div>
+
             </section>
 
             
             <section id="education">
 
+                <div class="section-heading">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/education.png" alt="Educational Qualification Logo" title="Educational Qualification">
+                    <h1 title="Educational Qualification">Educational Qualification</h1>
+                </div>
+
             </section>
 
 
             <section id="portfolio">
+
+                <div class="section-heading">
+                    <img src="https://img.icons8.com/fluent/48/000000/group-of-projects.png" alt="Projects Logo" title="Projects">
+                    <h1 title="Projects">Projects</h1>
+                </div>
+
 
             </section>
 
@@ -244,9 +262,41 @@
                     <h1>CONTACT</h3>
                 </div>
 
+                <div id="contact-container">
+
+                    <div id="contact-form-container">
+                        <form id="contact-form">
+                            <input id="input-name" name="name" type="text" placeholder="Your Name" required>
+                            <input id="input-email" name="input-email" type="email" required placeholder="Your Email">
+                            <input id="input-contact" name="input-contact" type="number" required placeholder="Your Contact Number">
+                            <textarea id="input-message" name="input-message"  placeholder="Message"></textarea>
+                            <button class="sub-btn" type="submit" onclick="alert('Message Send')">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                    <div id="my-details-container">
+    
+                        <h3> Get In touch </h3>
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+    
+                        <h3> My Address </h3>
+                        <div class="my-details-info-container">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hapur, Uttar Pradesh, India<br>245101</span>
+                        </div>
+                        <div class="my-details-info-container">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>+91-8630296896</span>
+                        </div>
+                        <div class="my-details-info-container">
+                            <i class="far fa-envelope"></i>
+                            <span>dpshar10114@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
                 <!--Social Media Links-->
                 <div id="social">
-                    <ul class="h-list text-center social-icons">
+                    <ul class="h-list text-center social-icons-contact">
                         <li>
                             <a href="https://www.linkedin.com/in/hardik-a-0667ab136" title="LinkedIn, Hardik Agarwal" target="_blank">
                                 <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn Logo" title="LinkedIn, Hardik Agarwal">
@@ -295,7 +345,13 @@
     
                     </ul>
                 </div>
+                
 
+            </section>
+            <section id="end">
+                <div id="ending-note">
+                    <h3 title="Property of Hardik Agarwal">C Hardik Agarwal (17CE015), TIT&S Bhiwani</h3>
+                </div>
             </section>
 
 
