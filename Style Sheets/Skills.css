@@ -1,0 +1,103 @@
+/*Generic Class for all section headings*/
+.section-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.section-heading h1{
+    color: #0A2335;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px whitesmoke;
+}
+
+/*Skill Bars*/
+.skills-display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 2em;
+   
+}
+.skill-progress{
+    height: auto;
+    width: 10rem;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    border: 2px solid rgb(10, 35, 53);
+    margin-left: 1em;
+    box-shadow: 0px 0px 6px 3px rgb(10, 35, 53);
+    margin-top: 2em;
+    
+}
+.skill-stat-htm{
+    border-radius: 0.8rem;
+    width: 80%;
+    height: inherit;
+    background-color: darkblue;
+}
+.skill-stat-css{
+    border-radius: 0.8rem;
+    width: 75%;
+    height: inherit;
+    background-color: brown;
+}
+.skill-stat-Python{
+    border-radius: 0.8rem;
+    width: 85%;
+    height: inherit;
+    background-color: blue;
+}
+.skill-stat-cpp{
+    border-radius: 0.8rem;
+    width: 75%;
+    height: inherit;
+    background-color: orange;
+}
+.skill-stat-java{
+    border-radius: 0.8rem;
+    width: 75%;
+    height: inherit;
+    background-color: purple;
+}
+.skill-stat-soft{
+    border-radius: 0.8rem;
+    width: 90%;
+    height: inherit;
+    background-color: red;
+}
+.skill-stat-adobe{
+    border-radius: 0.8rem;
+    width: 65%;
+    height: inherit;
+    background-color: #F7941D;
+}
+.skill-stat-sql{
+    border-radius: 0.8rem;
+    width: 55%;
+    height: inherit;
+    background-color: green;
+}
+.skill-stat-ccna{
+    border-radius: 0.8rem;
+    width: 70%;
+    height: inherit;
+    background-color: blue;
+}
+
+.skill-name span{
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+}
