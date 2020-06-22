@@ -1,0 +1,120 @@
+
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: inherit;
+    font-size: 1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0rem;
+    font-weight: bold;
+}
+
+.my-details-info-container i {
+    color: inherit;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input
+ {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: inherit;
+    background: transparent;
+    width: 90%;
+    line-height: 1;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    color: inherit;
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: inherit;
+    background: transparent;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid inherit;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: inherit;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#end{
+    display: flex;
+   
+}
+#end div{
+    display: flex;
+    justify-content: center
+}
+#end div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#end div h3:hover{
+   color:  red;
+}
