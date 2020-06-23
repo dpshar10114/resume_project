@@ -38,6 +38,9 @@
 
 .timeline-container {
     padding: 8px;
+    
+
+    
 }
 
 .timeline-logo {
@@ -63,34 +66,38 @@
 #timeline-divider .timeline-traveller {
     position: sticky;
     top: 135px;
+    left: inherit;
     z-index: 2;
+    
 }
 
-#timeline-divider i {
-    transform: rotate(90deg);
+#timeline-divider img {
+   
     margin-top: -35px;
+    margin-left: -0.55em;
+
     display: block;
     color: #2857a4;
 }
 
 .experience-designation {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: inherit;
 }
 
 .experience-company-name {
-    margin: 5px 0 0;
+    
     color: #eb822d;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .experience-duration {
-    color: #9e9b9b;
+    color: inherit;
     font-weight: 100;
-    color: grey;
+    color: inherit;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -98,7 +105,7 @@
 .experience-description {
     font-size: 14px;
     padding: 2px;
-    color: grey;
+    color: inherit;
     line-height: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
