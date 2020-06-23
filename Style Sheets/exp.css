@@ -1,20 +1,117 @@
-.timeline{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: solid 2px  black;
-    height: auto;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    margin-top: 2em;
+.timeline {
+    position: relative;
+    width: 75%;
+    margin: auto;
 }
-.timeline-box{
-    width: 45%;
-    height: 200px;
-    margin: 1em;
-    justify-content: flex-start;
-    border: solid 2px black;
+
+.timeline-box {
+    padding: 5px;
+    width: 41%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
 }
-.timeline-box:nth-child(2n){
-    align-self: flex-end;
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #0A2335;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
 }
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -9.3%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -9%;
+}
+
+.timeline-container {
+    padding: 8px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 60px;
+    overflow: hidden;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 1%;
+    left: 50%;
+    border: 1px dashed #0A2335;
+    height: 90%;
+    color: #0A2335;
+}
+
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
+
+.experience-designation {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+}
+
+.experience-company-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-duration {
+    color: #9e9b9b;
+    font-weight: 100;
+    color: grey;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.timeline-box a:link{
+    color: #eb822d
+}
+.timeline-box a:visited{
+    color: #eb822d
+}
+
+
