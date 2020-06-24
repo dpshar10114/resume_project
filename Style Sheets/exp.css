@@ -1,6 +1,6 @@
 .timeline {
     position: relative;
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 
@@ -81,9 +81,11 @@
 }
 
 .experience-designation {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-family: Arial, Helvetica, sans-serif;
     color: inherit;
+    word-wrap: break-word;
+   
 }
 
 .experience-company-name {
