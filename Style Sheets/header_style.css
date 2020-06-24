@@ -11,10 +11,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
-
-
-    /*overflow: scroll;*/ 
+   /*overflow: scroll;*/ 
 }
 
 /*Upper Navigation*/
@@ -28,10 +25,11 @@ nav #navi{
     flex-wrap: wrap;
 
 }
+
 #navi div a{
     color: #fffff0;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 
 }
